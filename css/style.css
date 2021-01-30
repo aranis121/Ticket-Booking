@@ -1,3 +1,5 @@
+
+
 *{
     padding: 0;
     margin: 0;
@@ -12,6 +14,7 @@ body{
     background-position: center center;
     background-attachment: scroll;
     background-size: cover;
+
 }
 
 nav{
@@ -35,7 +38,7 @@ nav ul li a{
     text-transform: uppercase;
 }
 nav ul li a:hover, a.active{
-    background-color: #070707;
+    background-color: #080808;
     border-radius: 5px;
 }
 .main-content{
@@ -66,10 +69,12 @@ nav ul li a:hover, a.active{
     min-width: 300px;
 }
 .plus-minus-btn{
-    color: #070707;
+    display: inline-flex;
+    color: #010101;
     font-size: 30px;
-    padding: 0 15px;
-    word-spacing: 20px;
+    padding: 40px 0px;
+    word-spacing: 10px;
+    width: unset;
 }
 
 .btn-minus,
@@ -83,9 +88,6 @@ nav ul li a:hover, a.active{
     font-size: 14px;
 }
 
-.plus-minus-btn{
-	width: unset;
-}
 .minus-btn{
     font-size: 35px;
 }
@@ -133,9 +135,13 @@ nav ul li a:hover, a.active{
     font-weight: 500;
     cursor: pointer;
     outline: none;
-    background-color:  #070707;
+    background-color:  #080808;
 }
 .amount{
     display: flex;
     justify-content: space-between;
 }
+.input-group {
+    align-items: end;
+}
+
