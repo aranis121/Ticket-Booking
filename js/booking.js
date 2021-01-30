@@ -78,10 +78,6 @@ function bookNow() {
     document.getElementById('total-count').innerText = parseInt(getElementById('first-class-input').value) + parseInt(getElementById('economy-class-input').value);
     document.getElementById('total-price').innerText = getElementById('all-total').innerText;
 }
-// get element id 
-function getElementById(id) {
-    return document.getElementById(id);
-}
 
 
 
